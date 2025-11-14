@@ -1,4 +1,4 @@
-const MODULE_ID = 'revealFogOfWar';
+const REVEALFOG_MODULE_ID = 'revealFogOfWar';
 
 async function revealAllFogOfWar() {
   if (!game.user.isGM) {
@@ -49,7 +49,7 @@ async function revealAllFogOfWar() {
     }
   }
 
-  game.socket.emit(`module.${MODULE_ID}`, {
+  game.socket.emit(`module.${REVEALFOG_MODULE_ID}`, {
     type: "reloadFog"
   });
 
@@ -61,7 +61,7 @@ async function revealAllFogOfWar() {
 }
 
 Hooks.once("ready", () => {
-  game.socket.on(`module.${MODULE_ID}`, (data) => {
+  game.socket.on(`module.${REVEALFOG_MODULE_ID}`, (data) => {
     if (data.type === "reloadFog") {
       canvas.fog.load();
       canvas.perception.update({ refreshVision: true, refreshLighting: true });
