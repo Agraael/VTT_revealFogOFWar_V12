@@ -1,0 +1,17 @@
+{
+  "id": "revealFogOfWar",
+  "title": "Reveal Fog Of War",
+  "description": "Well gives a button to reveal for of war to all players",
+  "version": "1.0.0",
+  "authors": [],
+  "scripts": [
+    "revealFogOfWar.js"
+  ],
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+   "url": "https://github.com/Agraael/VTT_revealFogOFWar_V12",
+    "manifest": "https://github.com/Agraael/VTT_revealFogOFWar_V12/releases/latest/download/module.json",
+    "download": "https://github.com/Agraael/VTT_revealFogOFWar_V12/releases/download/1.0.0/module.zip"
+}
