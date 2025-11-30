@@ -63,6 +63,7 @@ async function revealAllFogOfWar() {
 Hooks.once("ready", () => {
   game.socket.on(`module.${REVEALFOG_MODULE_ID}`, (data) => {
     if (data.type === "reloadFog") {
+      ui.notifications.info("The fog of war has been revealed for all players!");
       canvas.fog.load();
       canvas.perception.update({ refreshVision: true, refreshLighting: true });
     }

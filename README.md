@@ -8,5 +8,3 @@
     ```
 4.  Click **Install**.
 5.  Once the installation is complete, launch your world and enable the module in the **Manage Modules** settings.
-
-it's in lights tools
