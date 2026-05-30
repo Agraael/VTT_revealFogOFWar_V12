@@ -2,7 +2,7 @@
     "id": "revealFogOfWar",
     "title": "Lasossis's Reveal Fog Of War",
     "description": "Well gives a button to reveal for of war to all players",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "authors": [],
     "socket": true,
     "scripts": [
