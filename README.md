@@ -1,3 +1,9 @@
+# Reveal Fog of War
+
+Adds a button to reveal fog of war for all players at once.
+
+> The repo is still called `VTT_revealFogOFWar_V12` for legacy reasons, but the module is now built and verified against **Foundry v13**.
+
 ## Installation
 
 1.  On the Foundry VTT setup screen, go to the **Add-on Modules** tab.
